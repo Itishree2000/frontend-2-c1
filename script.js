@@ -1,4 +1,4 @@
-const data = [
+let data = [
     { name: "Itishree", age: 23, profession: "developer" },
     { name: "Amar", age: 24, profession: "admin" },
   ];
@@ -11,7 +11,7 @@ const data = [
   
   // 2. Add Data
   function addData() {
-    const newData = { name: "Amaresh", age: 25, profession: "designer" };
+    const newData = { name: "Iti", age: 25, profession: "designer" };
     data.push(newData);
     console.log(data);
   }
@@ -25,8 +25,8 @@ const data = [
   // 4. Concatenate Array
   function concatenateArray() {
     const additionalData = [
-      { name: "alice", age: 29, profession: "designer" },
-      { name: "bob", age: 22, profession: "developer" },
+      { name: "Lipa", age: 22, profession: "designer" },
+      { name: "Biki", age: 29, profession: "developer" },
     ];
     const concatenatedData = data.concat(additionalData);
     console.log(concatenatedData);
